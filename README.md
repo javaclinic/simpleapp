@@ -13,7 +13,13 @@ You can build/package the application with Maven:
 This will build a new WAR archive file, e.g. `target/simpleapp.war`.
 
 
-Deploy
-------
-You can deploy directly to the local JBoss AS7/EAP6 instance:
+Deploy/Undeploy/Redeploy
+-----------------------
+You can deploy/redeploy/undeploy directly to the local JBoss AS7/EAP6 instance:
 - `mvn jboss-as:deploy`
+- `mvn jboss-as:redeploy`
+- `mvn jboss-as:undeploy`
+
+ToDo
+----
+- Clean up documentation.
