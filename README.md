@@ -8,7 +8,7 @@ simpleapp
 Build
 -----
 You can build/package the application with Maven:
-- `mvn package`
+- `mvn clean package`
 
 This will build a new WAR archive file, e.g. `target/simpleapp.war`.
 
